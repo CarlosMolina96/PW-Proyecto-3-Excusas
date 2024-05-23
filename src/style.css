@@ -1,1 +1,38 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 255, 0, 0.705),
+    rgba(255, 208, 0, 0.705),
+    rgba(0, 255, 255, 0.705)
+  );
+  background-attachment: fixed;
+}
+
+body {
+  height: top;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: cursive;
+}
+
+.titulo {
+  height: 90px;
+  width: 100%;
+  padding-top: 5%;
+  border-color: black;
+  border-radius: 15px;
+}
+
+.intro {
+  border-radius: 15px;
+  font-size: x-large;
+}
+
+#excuse {
+  border-radius: 15px;
+  height: 300px;
+  font-size: xx-large;
+}
